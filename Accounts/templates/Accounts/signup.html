@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #299cd6;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="http://127.0.0.1:8000/home">Doctorly</a>
+            <a class="navbar-brand" href="/home">Doctorly</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,20 +23,20 @@
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Disseases</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">EMI schemes</a</li>
-                    <li class="nav-item"><a class="nav-link" href="http://127.0.0.1:8000/hospitals">Hospitals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/hospitals">Hospitals</a></li>
                 </ul>
                 <ul class="navbar-nav d-flex">
                     {% if user.is_authenticated %}
                         <li class="nav-item"> <a class="nav-link" href="#">{{user.username}}</a></li>
                         <li class="nav-item"> <a class="nav-link" href="/logout">Logout</a></li>
                     {% else %}
-                        <li class="nav-item"> <a class="nav-link" href="http://127.0.0.1:8000/accounts/signup"> Signup  <i class="fa fa-user-plus"></i></i></a></li>
-                        <li class="nav-item"> <a class="nav-link" href="http://127.0.0.1:8000/accounts/login"> Login  <i class="fa fa-user"></i></a></li>
+                        <li class="nav-item"> <a class="nav-link" href="/accounts/signup"> Signup  <i class="fa fa-user-plus"></i></i></a></li>
+                        <li class="nav-item"> <a class="nav-link" href="/accounts/login"> Login  <i class="fa fa-user"></i></a></li>
                     {% endif %}
                 </ul>
-            </div>
+          </div>
         </div>
-    </nav>
+      </nav>
     <h1> Signup </h1>
     <form method="POST">
         {% csrf_token %}
