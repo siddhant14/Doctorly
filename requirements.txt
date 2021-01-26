@@ -1,2 +1,2 @@
 Django~=2.2.4
-pip install Pillow
+Pillow~=8.1.0
