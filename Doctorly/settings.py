@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'Home.apps.HomeConfig',
     'Hospitals.apps.HospitalsConfig',
     'Accounts.apps.AccountsConfig',
+    'Disseases.apps.DisseasesConfig',
 ]
 
 MIDDLEWARE = [
