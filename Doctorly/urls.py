@@ -23,7 +23,6 @@ urlpatterns = [
     path('home/', include('Home.urls')),
     path('hospitals/', include('Hospitals.urls')),
     path('accounts/', include('Accounts.urls')),
-    path('', include('django.contrib.auth.urls')),
 ]
 
 if settings.DEBUG:
