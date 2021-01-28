@@ -10,4 +10,4 @@ pytz==2020.5
 requests==2.25.1
 sqlparse==0.4.1
 urllib3==1.26.3
-psycopg2==2.8.3
+psycopg2==2.8.3heroku create --buildpack https://github.com/heroku/heroku-buildpack-python
