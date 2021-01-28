@@ -1,1 +1,1 @@
-web: gunicorn Doctorly.wsgi
+web: gunicorn Doctorly.wsgi:application 
