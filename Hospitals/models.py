@@ -8,3 +8,6 @@ class Hospital(models.Model):
     Title = models.CharField(max_length=200)
     Text = models.TextField()
     Link = models.CharField(max_length=500)
+
+    class Meta:
+        db_table = 'doctorly'
