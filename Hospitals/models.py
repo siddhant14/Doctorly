@@ -9,5 +9,5 @@ class Hospital(models.Model):
     Text = models.TextField()
     Link = models.CharField(max_length=500)
 
-    class Meta:
-        db_table = 'doctorly'
+    # class Meta:
+    #     db_table = 'doctorly'

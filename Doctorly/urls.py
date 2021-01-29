@@ -25,7 +25,7 @@ urlpatterns = [
     path('accounts/', include('Accounts.urls')),
     path('disseases/', include('Disseases.urls')),
     path('financial-aid/', include('Finance.urls')),
-    path('', include('django.contrib.auth.urls')),
+    path('', include('django.contrib.auth.urls'))
 ]
 
 if settings.DEBUG:

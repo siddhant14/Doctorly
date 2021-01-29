@@ -30,8 +30,11 @@
         padding-top: 100px;
         }
     .card{
-        margin-bottom: 100px;
+        margin-bottom: 20px;
         margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+    
     }
     </style>
     </head>
@@ -72,7 +75,7 @@
                 {% for hospital in hospitals %}
                     <div class="col">
                         <center>
-                        <div class="card" style="width: 18rem;">
+                        <div class="card gg" style="width: 18rem;">
                             <img src="{{ hospital.Image.url }}" width="200" height="250" class="card-img-top" alt="Lilavati hospital">
                             <div class="card-body">
                                 <h5 class="card-title">{{ hospital.Title }}</h5>
