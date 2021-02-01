@@ -12,6 +12,55 @@
 	<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <title>Doctorly</title>
+    <style>
+
+    main{
+        background-color: rgba(226, 226, 226, 0.767);
+        margin: 30px;
+        height: 180vh; 
+    }
+
+    .filters{
+        width: 28rem;
+        padding-right: 4rem;
+        display: block;
+        float:left;
+    }
+    .filter{
+        border-top: 1px solid #28b;
+        padding-left: 35px;
+        margin-bottom: 25px;
+        padding-top: 25px;
+    }
+    .last{
+        border-bottom: 1px solid  #28b;
+    }
+    .filter-title{
+        margin-bottom: 20px;
+        font-size: 100px;
+    }
+    .last{
+        padding-bottom: 20px;
+    }
+    .inputs{
+        padding-left: 50px;
+        margin-bottom: 10px;
+    }
+    .Provider{
+        margin-left: 450px;
+        border-bottom: 1px solid #777;
+        margin-bottom: 20px;
+    }
+    .Provider-title{
+        margin-bottom: 10px;
+    }
+    .Provider-info{
+        margin-bottom: 20px;
+    }
+    hr{
+        margin-bottom: 40px;
+    }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #299cd6;">
@@ -38,5 +87,225 @@
             </div>
         </div>
     </nav>
+    <main>
+        <center>
+            <h2 class="heading-secondary u-margin-top-big">Receive Finanical Aid</h2>
+        </center>
+        <hr>
+        <div class="body">
+            <div class="filters">
+                <div class="filter">
+                    <div class="filter-title">
+                        <h2>Budget</h2>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        < Rs. 5000
+                        </label>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        Rs. 5000 - Rs. 10000
+                        </label>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        Rs. 10000 - Rs. 20000
+                        </label>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        Rs. 20000 - Rs. 50000
+                        </label>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        Rs. 50000 - Rs. 100000
+                        </label>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        > Rs. 100000
+                        </label>
+                    </div>
+                </div>
+                <div class="filter">
+                    <div class="filter-title">
+                        <h2>Dissease</h2>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        Anxiety
+                        </label>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        Asthma
+                        </label>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        Cancer
+                        </label>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        HV/Aids
+                        </label>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        Seasonal flu
+                        </label>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        STD
+                        </label>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        Asthma
+                        </label>
+                    </div>
+                </div>
+                <div class="filter last">
+                    <div class="filter-title">
+                        <h2>Aid Type</h2>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        EMI loan
+                        </label>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        Discount offers
+                        </label>
+                    </div>
+                    <div class="form-check inputs">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                        Medical quota
+                        </label>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="Providers">
+                <div class="Provider">
+                    <div class="Provider-title fs-4">
+                        Ratan Tata Trust
+                    </div>
+                    <div class="Provider-info">
+                        Mulla house, Homi Modi Street, Fort, Mumbai- 400001
+                    </div>
+                </div>
+                <div class="Provider">
+                    <div class="Provider-title fs-4">
+                        A.H.Wadia Charitable Trust
+                    </div>
+                    <div class="Provider-info">
+                        Temple Bar Building, 3rd floor
+                        70 Dr. V. B. Gandhi Road
+                        Kala Ghoda, Fort
+                        <br>
+                        Mumbai - 400023
+                        Call 022 22673234 
+                        <br>
+                        Time: 3.00pm till 5.00 pm
+                    </div>
+                </div>
+                <div class="Provider">
+                    <div class="Provider-title fs-4">
+                        Arogya Finance Trust
+                    </div>
+                    <div class="Provider-info">
+                        102, Meadows, Sahar Plaza, Andheri Kurla Road, J B Nagar, Andheri East, Mumbai, Maharashtra 400059
+                        <br>
+                        Call : 022 2839 2488
+                    </div>
+                </div>
+                <div class="Provider">
+                    <div class="Provider-title fs-4">
+                        Cancer Aid Foundation
+                    </div>
+                    <div class="Provider-info">
+                        Byculla municipal school bldg, Grd. flr, R no. 15-18, Near ‘S’ bridge, N.M Joshi Marg, Byculla (W), Mumbai - 400011
+                        <br>
+                        Call 022-2300 5000
+                    </div>
+                </div>
+                <div class="Provider">
+                    <div class="Provider-title fs-4">
+                        Lions Club International
+                    </div>
+                    <div class="Provider-info">
+                        29, Murad Mansion, 457, S.V.P road, Opera House, Mumbai -400004
+                    </div>
+                </div>
+                <div class="Provider">
+                    <div class="Provider-title fs-4">
+                        Sir Dorabji Tata Trust
+                    </div>
+                    <div class="Provider-info">
+                        Bombay house, 24, Homi Modi street, Fort, Mumbai 400001
+                        <br> 
+                        call : 022 – 66658282
+                        <br>
+                        Monday till Friday 3.00pm till 4.00pm
+                    </div>
+                </div>
+                <div class="Provider">
+                    <div class="Provider-title fs-4">
+                        The Mayor Fund
+                    </div>
+                    <div class="Provider-info">
+                        Main BMC building, Mahanagarpalika marg, Opp. CST Station, Mumbai - 400001
+                        022-22621020, 22620470, Extn no-3248,3228
+                        <br>
+                        Monday to Friday 3.00pm till 5.00pm
+                    </div>
+                </div>
+                <div class="Provider">
+                    <div class="Provider-title fs-4">
+                        Shri Siddhivinayak Ganpati Mandir Trust
+                    </div>
+                    <div class="Provider-info">
+                        Prabhadevi, Mumbai -400028
+                        <br>
+                        022 – 24223206, 2437361
+                        <br>
+                        Monday to Friday   10.00 am till 5.00 pm
+                    </div>
+                </div>
+                <div class="Provider">
+                    <div class="Provider-title fs-4">
+                        Mahavir Heart Foundation
+                    </div>
+                    <div class="Provider-info">
+                        Avanti Apartment, Near Shanmukhanand hall, Sion, Mumbai-400022
+                        <br>
+                        Call : 022 - 24033172, 24014268
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

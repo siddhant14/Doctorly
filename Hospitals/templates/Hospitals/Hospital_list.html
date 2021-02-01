@@ -21,7 +21,7 @@
         letter-spacing: .2rem;
         transition: all .2s;}
     .margin{
-        margin: 0rem;
+        margin: -2rem;
     }
     main{
         background-color: rgba(226, 226, 226, 0.767);
@@ -34,7 +34,11 @@
         margin-top: 100px;
         margin-left: 50px;
         margin-right: 50px;
-    
+    }
+    .content{
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-top: 20px;
     }
     </style>
     </head>
@@ -70,6 +74,9 @@
                     Find which hospital is best for you.
                 </h2>
                 </center>
+                <div class="content">
+                    <hr>
+                </div>    
             </div>
             <div class="row">
                 {% for hospital in hospitals %}
